@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{%block titulo%}   Cadastrar Livro   {%endblock%}
+
+
+
+{%block conteudo%}    
+
+
+<div class="card">
+    <div class="card-header">
+        Cadastro de Livro
+    </div>
+    <div class="card-body">
+        <h4 class="card-title">Cadastro</h4>
+        {% include 'livros/formulario.html'%}
+     
+    </div>
+    
+</div>
+
+
+{%endblock%}
